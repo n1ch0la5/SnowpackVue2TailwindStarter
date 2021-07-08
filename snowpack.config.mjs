@@ -8,6 +8,7 @@ export default {
     '@morgul/snowpack-plugin-vue2',
     '@snowpack/plugin-postcss',
     '@jadex/snowpack-plugin-tailwindcss-jit',
+    '@snowpack/plugin-dotenv',
     ['@canarise/snowpack-eslint-plugin', {
       globs: ['src/**/*.vue', 'src/**/*.js'], // You should provide this
       options: { /* any eslint options here */ },
